@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: asia.gcr.io/$PROJECT_ID/sheetal-webserver:$SHORT_SHA
+        image: asia.gcr.io/GOOGLE_CLOUD_PROJECT/sheetal-webserver:latest
         ports:
         - containerPort: 80
 ---
