@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: asia.gcr.io/searce-playground-v1/sheetal-webserver:ee83ed7
+        image: asia.gcr.io/searce-playground-v1/sheetal-webserver:477c68b
         ports:
         - containerPort: 80
 ---
